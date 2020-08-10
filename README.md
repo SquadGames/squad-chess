@@ -1,5 +1,5 @@
 # SquadChess
-Example game built with Squad Games
+An example built on Squad Games 
 
 * The game itself
   * Free play mode

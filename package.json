@@ -1,0 +1,11 @@
+{
+  "name": "squad-chess",
+  "version": "0.0.0",
+  "description": "Proof of concept chess game built using the Squad protocol",
+  "main": "index.js",
+  "repository": "git@github.com:SquadGames/squad-chess.git",
+  "author": "Ezra Weller <ezra.weller@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"]
+}

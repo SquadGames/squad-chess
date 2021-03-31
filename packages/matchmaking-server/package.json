@@ -1,0 +1,19 @@
+{
+  "name": "matchmaking-server",
+  "version": "0.0.0",
+  "description": "Simple matchmaking server for Squad Chess",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && jest",
+    "server": "node index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "rpc-websockets": "^5.0.14"
+  },
+  "devDependencies": {
+    "jest": "^25.2.6",
+    "standard": "^14.3.3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mithril-app",
+  "version": "0.0.0",
+  "description": "Squad Chess web app",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && jest",
+    "start": "node scripts/load_development_defs.js && node scripts/find-graphics-paths && npm run watch",
+    "watch": "webpack src/index.js --output bin/app.js -d --watch",
+    "build": "webpack src/index.js --output bin/app.js -d"
+  },
+  "dependencies": {
+    "mithril": "^2.0.4",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "jest": "^25.1.0",
+    "standard": "^14.3.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
